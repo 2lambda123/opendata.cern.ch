@@ -110,7 +110,7 @@ install_requires = [
     # Pin Flask-SQLAlchemy version due to apply_driver_hacks
     'Flask-SQLAlchemy<2.5.0',
     # Pin Celery due to worker runtime issues
-    'celery==5.0.4',
+    'celery==5.2.2',
     # Pin XRootD consistently with Dockerfile
     'xrootd==4.12.7',
     # Pin Flask/gevent/greenlet/raven to make master work again
